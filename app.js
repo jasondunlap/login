@@ -1,4 +1,3 @@
-
 /**
  * Node.js Login Boilerplate
  * Author : Stephen Braitsch
@@ -10,7 +9,7 @@ var http = require('http');
 var app = express();
 
 app.configure(function(){
-	app.set('port', 8080);
+	app.set('port', 3000);
 	app.set('views', __dirname + '/app/server/views');
 	app.set('view engine', 'jade');
 	app.locals.pretty = true;
